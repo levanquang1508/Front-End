@@ -1,0 +1,387 @@
+/**Box1**/
+link-bg =  #2a61a6
+link-cl = #fcfbf7
+link-mrl =4%
+.h2 
+		text-align center
+		height 50px
+		line-height 60px
+		color link-bg
+.hr
+		margin-top -2%
+		width 20%
+		background link-bg	
+
+/**box1**/
+.box1
+	margin-left link-mrl
+	button
+		span
+			color link-bg
+	span	
+		img
+			width 60px
+			height 45px
+			padding-left 4%
+		h4
+			padding-top 10px
+	.box11
+		a 
+			margin-left 40px
+			font-family "Times New Roman", Times, serif;
+			color #222222
+		ul 
+			margin-left 120px
+/**Kết thúc Box1**/
+
+
+
+
+
+/**box2**/
+.box2
+	color link-cl
+	margin-left link-mrl
+	img
+		width 100%
+		height 450px
+	a
+		width 40px
+		 font-family "Times New Roman", Times, serif;
+	span
+		height 50px
+		width 50px
+		padding 0
+	p 
+		 font-family "Times New Roman", Times, serif;
+	.box2q
+		width 600px
+		height 300px
+		background rgba(55, 106, 162,0.3)
+		margin-left 3%
+		margin-top 5%
+		h2
+			text-align left
+		button
+			font-family "Times New Roman", Times, serif;
+		hr
+			background link-cl
+	
+/**kết thúc box2**/
+
+/**Box3**/
+.box3
+	margin-top 0.5%
+	margin-bottom 1%
+	margin-left link-mrl
+	img
+		width 100%
+		height 270px
+	h3
+		@extend .h2
+		
+	hr
+		@extend .hr
+		margin-top: -1%
+	button
+		background  link-bg
+		margin-top 8%
+		margin-left 84%
+		color link-cl
+		font-family "Times New Roman", Times, serif;
+	p
+		line-height 17px
+		font-size 14px
+		
+/**Kết thúc box3**/
+
+	
+/**box4**/
+.box4
+	margin-left link-mrl
+	margin-bottom 2%
+	h3
+		@extend .h2
+		line-height 30px
+	hr
+		margin-top -2%
+		width 8%
+		background link-bg
+	img
+		width 100%;
+		height 190px
+	h5
+		margin-top  1%;
+		margin-bottom  2%
+		color link-bg
+	button
+		margin-top -2%
+		background link-bg
+		color link-cl
+	p 
+		line-height 17px
+		font-size 14px
+		
+		
+/**kết thúc box4**/
+
+
+/**Box5**/
+.box5
+	margin-left link-mrl
+	h3 
+		@extend .h2
+		margin-top 0%
+	hr
+		margin-top -0.5%
+		width 11%
+		background link-bg
+	.menutemp
+		width 100%
+		height 50px
+		float left
+	ul
+		list-style-type none
+		padding-left 9%
+		
+	li
+		float left
+		
+	a
+		font-size 18px
+		color link-bg
+		text-decoration none
+		font-weight bold
+		margin-left 50px
+		
+	a:hover
+		text-decoration underline
+	
+/**Kết thúc box5**/
+
+/**box6**/
+.box6
+	float left
+	margin-left link-mrl
+	margin-top -0.8%
+	.col-md-3
+		float left
+		margin-bottom 2.5%
+	img
+		width 100%
+		height 200px
+	.card-img-overlay
+		width 100%
+		height 70px
+		background rgba(55, 106, 162,0.3)
+		color  link-cl
+		text-align center
+		line-height  20px
+		padding-top  10px
+		margin-top 130px
+	p
+		color link-cl
+		
+/**kết thúc box6**/
+
+/**box7**/
+.box7
+	float left
+	background link-bg
+	height 65px
+	margin-top: -0.8%
+	p
+		color link-cl
+		text-align center
+		line-height 10px
+		margin-top 1%
+		font-family "Times New Roman", Times, serif
+/**Kết thúc box7**/
+@media screen and (max-width: 1024px)
+		.box1
+			span
+				h4
+					font-size 23px
+				img
+					margin-left 30%
+			.box11
+				a
+					font-size 15px
+					margin-left 5px
+				ul 
+					margin-left 40px
+		.box2
+			img
+				height 400px
+			.box2q
+				height 250px
+				width: 400px
+				margin-left 50%
+				margin-top 10%
+				h2
+					font-size 15px
+				p 
+					font-size 13px
+				button
+					font-size 13px
+		.box3
+			img
+				height 270px
+			h3
+				font-size 15px
+			hr
+				margin-top -3%
+			p 
+				font-size 13px
+			button
+				margin-left 37%
+				margin-top: 3%
+				font-size 13px
+		.box4
+			img
+				height 200px
+			h3
+				font-size 15px
+			hr
+				margin-top -3%
+			p 
+				font-size 10px
+			h5
+				font-size 15px
+			button
+				font-size 13px
+		.box5
+			h3
+				font-size 15px
+			hr
+				margin-top -1%
+			ul
+				padding-left 15%
+			a
+				margin-left 30px
+				font-size 13px
+				
+		.box6
+			img
+				height 150px
+			p 
+				font-size 10px
+				line-height 10px
+			.card-img-overlay
+				margin-top: 110px
+				height 40px
+		.box7
+			p
+				font-size 14px
+				margin-top 10px	
+ 
+
+
+@media screen and (max-width: 768px)
+		.box2
+			img
+				height 300px
+			.box2q
+				margin-top 5%
+				height 250px
+				width: 400px
+				margin-left 34%
+				h2
+					font-size 17px
+				p 
+					font-size 14px
+				button
+					font-size 14px
+		.box3
+			margin-top 3%
+			img
+				height 200px
+			h3
+				font-size 17px
+			hr
+				margin-top -4%
+			p 
+				font-size 10px
+			button
+				margin-left 37%
+				margin-top: -3%
+				font-size 13px
+		.box4
+			img
+				height 170px
+			h3
+				font-size 17px
+			hr
+				margin-top -4%
+			p 
+				font-size 10px
+			h5
+				font-size 15px
+			button
+				font-size 13px
+		.box5
+			h3
+				font-size 17px
+			hr
+				margin-top -2%
+			ul
+				padding-left 0px
+			a
+				margin-left 30px
+				font-size 13px
+				
+		.box6
+			img
+				height 150px
+			p 
+				font-size 10px
+				line-height 10px
+			.card-img-overlay
+				margin-top: 110px
+				height 40px
+		.box7
+			p
+				font-size 14px
+				margin-top 10px	
+ 
+
+
+@media screen and (max-width: 480px)
+	.menutemp
+		display: none
+
+	.box2
+		display:none
+
+	.box1
+		.box11
+			a
+				margin-left 0px
+			ul
+				margin-left 0px
+	.box3
+		button
+			margin-top 3%
+			margin-left 70%
+			margin-bottom: 3%
+		hr
+			width: 34%
+	.box4
+		hr
+			margin-top: -5%
+			width: 24%
+		button
+			margin-bottom: 6%
+	.box5
+		hr
+			width: 35%
+	.box7
+		p 
+			line-height 0px
+			padding-top 12px
+	.box6
+		.card-img-overlay
+			line-height  50px
+		
+
+
